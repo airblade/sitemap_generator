@@ -1,3 +1,7 @@
+N.B. This fork is Ruby 1.8.6-compatible (and probably therefore not compatible with 1.8.7+).
+
+<hr>
+
 SitemapGenerator
 ================
 
