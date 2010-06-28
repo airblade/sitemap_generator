@@ -8,11 +8,11 @@ gem 'nokogiri'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "sitemap_generator"
+    gem.name = "airblade-sitemap_generator"
     gem.summary = %Q{Easily generate enterprise class Sitemaps for your Rails site using a familiar Rails Routes-like DSL}
     gem.description = %Q{A Rails 3-compatible gem/plugin to generate enterprise-class Sitemaps using a familiar Rails Routes-like DSL.  Sitemaps are readable by all search engines and adhere to the Sitemap protocol specification.  Automatically pings search engines to notify them of new sitemaps (including Google, Yahoo and Bing).  Provides rake tasks to easily manage your sitemaps.  Supports image sitemaps and handles millions of links.}
-    gem.email = "kjvarga@gmail.com"
-    gem.homepage = "http://github.com/kjvarga/sitemap_generator"
+    gem.email = "boss@airbladesoftware.com"
+    gem.homepage = "http://github.com/airblade/sitemap_generator"
     gem.authors = ["Adam Salter", "Karl Varga"]
     gem.files =  FileList["[A-Z]*", "{bin,lib,rails,templates,tasks}/**/*"]
     gem.test_files = []
