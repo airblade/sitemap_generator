@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{sitemap_generator}
-  s.version = "0.3.3"
+  s.version = "0.3.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Adam Salter", "Karl Varga"]
-  s.date = %q{2010-05-28}
+  s.date = %q{2010-06-28}
   s.description = %q{A Rails 3-compatible gem/plugin to generate enterprise-class Sitemaps using a familiar Rails Routes-like DSL.  Sitemaps are readable by all search engines and adhere to the Sitemap protocol specification.  Automatically pings search engines to notify them of new sitemaps (including Google, Yahoo and Bing).  Provides rake tasks to easily manage your sitemaps.  Supports image sitemaps and handles millions of links.}
   s.email = %q{kjvarga@gmail.com}
   s.extra_rdoc_files = [
@@ -41,14 +41,14 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/kjvarga/sitemap_generator}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.6}
+  s.rubygems_version = %q{1.3.7}
   s.summary = %q{Easily generate enterprise class Sitemaps for your Rails site using a familiar Rails Routes-like DSL}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
-    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<nokogiri>, [">= 0"])
     else
