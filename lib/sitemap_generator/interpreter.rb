@@ -17,9 +17,9 @@ module SitemapGenerator
     end
 
     # KJV do we need this?  We should be using path_* helpers.
-    # def self.default_url_options(options = nil)
-    #   { :host => SitemapGenerator::Sitemap.default_host }
-    # end
+    def self.default_url_options(options = nil)
+      { :host => SitemapGenerator::Sitemap.default_host }
+    end
 
     def self.run
       new
